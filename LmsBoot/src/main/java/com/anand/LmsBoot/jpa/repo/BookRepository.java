@@ -1,4 +1,4 @@
-package com.anand.LmsBoot.repository;
+package com.anand.LmsBoot.jpa.repo;
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
