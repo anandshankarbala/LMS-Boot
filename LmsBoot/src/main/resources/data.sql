@@ -1,3 +1,8 @@
+-- ENABLED TINYINT NOT NULL DEFAULT 1  TO DISABLE USER
+-- GET USER CONTACT DETAILS OUT OF USER TABLE
+-- refer http://www.mkyong.com/spring-security/spring-security-form-login-using-database/ for db design
+
+
 CREATE DATABASE IF NOT EXISTS lms;
 use lms;
 
@@ -18,6 +23,9 @@ INSERT INTO `book` (`id`, `ISBN_NO`, `Book_Title`, `Author_Name`, `Language`,`Pu
 (1, '62781733', 'River  Between', 'Ngugi wa Thiongo','English', '2018-02-24', '1', '300.00', 120, 'Longhorn'),
 (2, '1234567129391', 'Mayavalai', 'Pa Ragavan','Tamil', '2018-02-24', NULL, '500.00', 432, 'Mathi Nilayam'),
 (3, '81-7371-146-1', 'Wings of Fire', '	A P J Abdul Kalam','English', '2018-02-24', NULL, '450.00', 133, 'Scholastic Corporation');
+
+-- ENABLED TINYINT NOT NULL DEFAULT 1  TO DISABLE USER
+-- GET USER CONTACT DETAILS OUT OF USER TABLE
 
 CREATE TABLE `lms`.`member` (
 `id` int( 11 ) NOT NULL AUTO_INCREMENT ,
