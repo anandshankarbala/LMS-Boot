@@ -1,4 +1,4 @@
-package com.anand.LmsBoot.model;
+package com.anand.LmsBoot.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
